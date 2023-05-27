@@ -1,0 +1,32 @@
+{
+    "theme_color": "#1a4a5e",
+    "background_color": "#1a4a5e",
+    "display": "standalone",
+    "scope": "/pwa-parcial-1-dwn3bv-hoshino-airin/",
+    "start_url": "/pwa-parcial-1-dwn3bv-hoshino-airin/index.html",
+    "name": "Parcial pwa hoshino",
+    "short_name": "parcialpwa",
+    "description": "Parcial PWA",
+    "icons": [
+        {
+            "src": "img/icons/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "img/icons/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "img/icons/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "img/icons/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

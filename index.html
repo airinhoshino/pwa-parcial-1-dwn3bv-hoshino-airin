@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no" />
         <link rel="shortcut icon" href="favicon.ico" />
         <link rel="stylesheet" href="styles.css" />
+        <link rel="manifest" href="manifest.webmanifest">
         <script src="https://kit.fontawesome.com/5ac1bd9100.js" crossorigin="anonymous"></script>
 
     </head>
@@ -20,15 +21,23 @@
                     <li>$ <span id="tuTotalCantidad"class="tuTotal">0</span> PES es el total</li>
                     <li>
                         <!-- Filtro de categoría, no se si se debe crear dinámico. -->
-                        <label for="categorias-productos">Filtrar por</label>
+                        <!-- <label for="categorias-productos">Filtrar por</label>
                         <select name="categoria" id="categoria-producto" class="select">
                                 <option value="" selected disabled>--Elija una categoría--</option>
                                 <option value="Blend">Blend</option>
                                 <option value="Kit">Kit</option>
                                 <option value="Accesorios">Accesorios</option>
-                                <option value="Todos">Todos</option>
+                                <option value="Todos">Todos</option> -->
                         <!-- Si dejo el value vacío en algún option, toma como valor x defecto el texto que tiene -->
-                        </select>
+                        <!-- </select> -->
+
+                        <div id="instalacion" class="w-100">
+                            <div
+                                class="h-100 d-flex justify-content-center align-items-center xs-col-12 col-lg-7 xxl-col-5 contenedor-instalar-app">
+                                
+                                <button type="button" id="botonInstalar">Instalar app</button>
+                            </div>
+                        </div>
                     </li>
                     <li><button class="btn btn-complementary">Ver carrito</button></li>
 

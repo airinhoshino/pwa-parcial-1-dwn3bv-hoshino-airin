@@ -1,0 +1,67 @@
+[
+{
+    "id": 1,
+    "nombre": "Box Regalo",
+    "descripcion": "Ideal para regalar una primera experiencia",
+    "precio": 1000,
+    "imagen": "img/boxregalo.webp",
+    "altimagen": "boxregalo",
+    "categoria": "Kit",
+   "infoextra": "Manzanilla y cedrón"
+  },
+
+  {
+    "id": 2,
+    "nombre": "Libro Blends",
+    "descripcion": "Un libro con todos los beneficios de las hierbas",
+    "precio": 1500,
+    "imagen": "img/librote.webp",
+    "altimagen": "libroblends",
+    "categoria": "Accesorios",
+    "infoextra": "Editorial Ateneo"
+  },
+
+  {
+    "id": 3,
+    "nombre": "Matcha Box",
+    "descripcion": "Kit ideal para disfrutar los beneficios del matcha",
+    "precio": 2000,
+    "imagen": "img/matchabox.webp",
+    "altimagen": "matchabox",
+    "categoria": "Kit",
+    "infoextra": "Origen Indonesia"
+  },
+
+  {
+    "id": 4,
+    "nombre": "Matcha Kit",
+    "descripcion": "Descubrí los fascinantes beneficios del matcha",
+    "precio": 2500,
+    "imagen": "img/matchakit.webp",
+    "altimagen": "matchakit",
+    "categoria": "Accesorios",
+    "infoextra": "Calidad ISO"
+  },
+
+  {
+    "id": 5,
+    "nombre": "Mega Box",
+    "descripcion": "Una hermosa caja para guardar todos tus blends",
+    "precio": 3000,
+    "imagen": "img/megabox.webp",
+    "altimagen": "altimagen5",
+    "categoria": "Blends",
+    "infoextra": "12 Sabores"
+  },
+
+  {
+    "id": 6,
+    "nombre": "Saquitos Surtidos",
+    "descripcion": "Un surtido para que pruebes todos los sabores",
+    "precio": 3500,
+    "imagen": "img/saquitos.webp",
+    "altimagen": "saquitoste",
+    "categoria": "Blends",
+    "infoextra": "10 sobres"
+  }
+]

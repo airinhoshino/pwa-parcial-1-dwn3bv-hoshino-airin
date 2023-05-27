@@ -1,7 +1,8 @@
 const nombreCache = 'pwa-airin-archivos-cache';
 const archivos = ['/',
                 'index.html',
-                'styles.css'
+                'styles.css',
+                'img',
 ];
 
 
