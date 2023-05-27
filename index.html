@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>PWA | Parcial 1 | HOSHINO</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no" />
+        <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="stylesheet" href="styles.css" />
+        <script src="https://kit.fontawesome.com/5ac1bd9100.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <header>
+            <h1>PWA | Parcial 1 | HOSHINO</h1>
+        </header>
+        <main>
+            <div id="minicarrito">
+                <ul>
+                    <li><i class="fa-solid fa-cart-shopping"></i> <span id="monstrarCantidad">0</span> ítems agregados <button type="button" id="vaciarCarrito" class="btn btn-trash fa-regular fa-trash-can fa-lg"></button></li>
+                    <li>$ <span id="tuTotalCantidad"class="tuTotal">0</span> PES es el total</li>
+                    <li>
+                        <!-- Filtro de categoría, no se si se debe crear dinámico. -->
+                        <label for="categorias-productos">Filtrar por</label>
+                        <select name="categoria" id="categoria-producto" class="select">
+                                <option value="" selected disabled>--Elija una categoría--</option>
+                                <option value="Blend">Blend</option>
+                                <option value="Kit">Kit</option>
+                                <option value="Accesorios">Accesorios</option>
+                                <option value="Todos">Todos</option>
+                        <!-- Si dejo el value vacío en algún option, toma como valor x defecto el texto que tiene -->
+                        </select>
+                    </li>
+                    <li><button class="btn btn-complementary">Ver carrito</button></li>
+
+                </ul>
+
+            </div>
+            <h2>Productos</h2>
+
+            <section id="productos" class="card-container">
+                <!-- Acá se crean dinámicamente cards con los productos -->
+            </section>
+
+             <!-- Creo el div #contenedorModal y genero su contenido dinámicamente -->
+         <div id="contenedorModal">
+
+        </div>
+
+        </main>
+        <footer>
+            <ul>
+                <li>Profesor Sergio Medina</li>
+                <li>PWA</li>
+            </ul>
+        </footer>
+
+
+
+
+        <script src="clases.js"></script>
+        <script src="index.js"></script>
+
+    </body>
+</html>
