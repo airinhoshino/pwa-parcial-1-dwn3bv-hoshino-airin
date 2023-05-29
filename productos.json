@@ -52,16 +52,5 @@
     "altimagen": "altimagen5",
     "categoria": "Blends",
     "infoextra": "12 Sabores"
-  },
-
-  {
-    "id": 6,
-    "nombre": "Saquitos Surtidos",
-    "descripcion": "Un surtido para que pruebes todos los sabores",
-    "precio": 3500,
-    "imagen": "img/saquitos.webp",
-    "altimagen": "saquitoste",
-    "categoria": "Blends",
-    "infoextra": "10 sobres"
   }
 ]

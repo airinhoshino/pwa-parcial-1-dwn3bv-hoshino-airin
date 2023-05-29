@@ -85,7 +85,7 @@ header {
 }
 
 h2 {
-  font-size: 4rem;
+  font-size: 3rem;
   color: #ffffff;
 }
 
@@ -267,6 +267,25 @@ input[type='submit']:hover {
     background: rgba(19, 79, 92, 0.25);
 }
 
+#menu {
+    display: flex;
+    flex-direction: row;
+   
+    align-items: center;
+    padding: 0.5em 1rem;
+    width: 100%;
+    background: rgba(232, 235, 235, 0.25);
+}
+
+#menu ul {
+    justify-content: right;
+}
+
+#menu a {
+    margin: 30px;
+}
+
+
 ul {
     list-style: none;
     padding: 0;
@@ -426,7 +445,7 @@ input {
     border: 1px solid #134f5c;
     border-radius: 0.5em;
     padding: 0 1em;
-    font-size: 2.4em;
+    font-size: 1em;
     line-height: 1.5;
     text-align: left;
     color: #134f5c;
